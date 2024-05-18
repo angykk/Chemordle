@@ -1,0 +1,26 @@
+body{
+    margin: 2%;
+}
+table, td, tr{
+    border: 1px solid;
+    border-color: black;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    table-layout: fixed;
+}
+form{
+    margin-top: 2%;
+}
+
+.stylised_list{
+    columns: 2; /* Split the list into two columns */
+    padding: 0;
+    list-style-type: none;
+    text-emphasis-style: normal;
+}
+
+.stylised-list li {
+    margin-bottom: 10px; /* Add space between list items */
+    break-inside: avoid-column; /* Avoid breaking items across columns */
+}
